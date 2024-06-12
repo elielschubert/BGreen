@@ -29,13 +29,22 @@
     src:url(../fonts/GlacialIndifference-Bold.otf) format('truetype');
 }
 
-.justify-center{
-    justify-content: center;
-    display: flex;
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
 }
 
-.justify-end{
-    justify-content: right;
+.header, .section{
+    height: 13vh;
+}
+
+.bgreen-logo{
+    width: min-content;
+}
+
+.justify-center{
+    justify-content: center;
     display: flex;
 }
 
@@ -44,34 +53,19 @@
     align-items: center;
 }
 
-.background{
-    width: 100vw;
-    height: 100vh;
+.space-around{
     display: flex;
-    overflow-x: hidden;
+    justify-content: space-evenly;
 }
 
-.header{
-    width: 100vw;
-    height: 17vh;
-    /* background-color: antiquewhite; */
+.align-end{
     display: flex;
-    justify-content: center;
+    align-items: end;
 }
 
-.nav-bar{
-    width: 92vw;
+.order-row{
     display: flex;
-}
-
-.nav-cols{
-    width: 30.66vw;
-}
-
-.nav-bar ul{
-    display: flex;
-    justify-content: space-between;
-    width: 70%;
+    flex-direction: row;
 }
 
 .list{
@@ -90,7 +84,19 @@
     text-decoration: none;
     color: var(--primary-dark-color);
 }
+
 .list-link:hover{
     color: var(--primary-dark-color-hover);
-    text-decoration: underline 2px;
+}
+
+.title{
+    font-size: 1.25vw;
+    color: var(--primary-dark-color);
+    font-family: "Archive";
+}
+
+.div-image{
+    width: 50vw;
+    height: 50vh;
+    display: flex;
 }
