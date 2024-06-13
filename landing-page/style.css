@@ -39,8 +39,14 @@ body{
     height: 13vh;
 }
 
-.bgreen-logo{
-    width: min-content;
+.section-secondary{
+    height: 6.5vh;
+}
+
+.about-bgreen{
+    height: 50vh;
+    background-color: var(--primary-light-color);
+    margin-bottom: 12vh;
 }
 
 .justify-center{
@@ -55,7 +61,7 @@ body{
 
 .space-around{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .align-end{
@@ -63,9 +69,8 @@ body{
     align-items: end;
 }
 
-.order-row{
-    display: flex;
-    flex-direction: row;
+.margin-bottom{
+    margin-bottom: 4.5vh;
 }
 
 .list{
@@ -93,10 +98,32 @@ body{
     font-size: 1.25vw;
     color: var(--primary-dark-color);
     font-family: "Archive";
+    cursor: default;
 }
 
-.div-image{
-    width: 50vw;
-    height: 50vh;
-    display: flex;
+.paragraph-section{
+    width: 30.885vw;
+}
+
+.paragraph{
+    font-size: 1vw;
+    color: var(--secondary-dark-color);
+    font-family: "Glacial Indifference";
+    text-align: justify;
+    cursor: default;
+}
+
+.image{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.line{
+    background-color: var(--secondary-dark-color);
+    height: 0.1vh;
+}
+
+.social-icon{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
 }
