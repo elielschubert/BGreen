@@ -127,3 +127,53 @@ body{
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
+
+.img-container {
+    width: 29.688vw;
+    height: 57vh;
+    perspective: 800px;
+}
+
+.img-container:hover>.card-img {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+.card-img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.back {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.img-1 {
+    background-image: url(../media/cardboard570.jpg);
+}
+
+.img-2{
+    background-image: url(../media/envelope570.jpg);
+}
+
+.img-3{
+    background-image: url(../media/bottlecap570.jpg);
+}
+
+.back {
+    background-color: var(--primary-light-color);
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
