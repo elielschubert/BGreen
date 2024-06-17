@@ -66,6 +66,11 @@ body{
     align-items: center;
 }
 
+.text-center{
+    text-align: center;
+    margin-top: 2vh;
+}
+
 .space-around{
     display: flex;
     justify-content: space-around;
@@ -144,6 +149,7 @@ body{
 .img-container:hover{
     translate: 0 -2vh;
     transition: all 600ms;
+    cursor: pointer;
 }
 
 .img-card__inner{
