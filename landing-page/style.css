@@ -144,6 +144,7 @@ body{
 .img-container:hover{
     translate: 0 -2vh;
     transition: all 600ms;
+    cursor: pointer;
 }
 
 .img-card__inner{
@@ -163,7 +164,7 @@ body{
     overflow: hidden;
     display: block;
     transform: rotateY(180deg);
-    background-color: var(--primary-light-color);
+    background-color: var(--primary-dark-color);
 }
 
 .img-1,  
