@@ -66,6 +66,11 @@ body{
     align-items: center;
 }
 
+.text-center{
+    text-align: center;
+    margin-top: 2vh;
+}
+
 .space-around{
     display: flex;
     justify-content: space-around;
@@ -125,15 +130,6 @@ body{
     margin-right: 1vw;
 }
 
-.line{
-    background-color: var(--secondary-dark-color);
-    height: 0.1vh;
-}
-
-.social-icon{
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-}
 
 .img-container {
     width: 29.688vw;
@@ -141,8 +137,14 @@ body{
     perspective: 1000px;
 }
 
-.img-container:hover{
-    translate: 0 -2vh;
+.img-container:hover {
+    transform: translateY(-2vh);
+    transition: all 600ms;
+    cursor: pointer;
+}
+
+.img-container:not(:hover) {
+    transform: translateY(0);
     transition: all 600ms;
     cursor: pointer;
 }
@@ -195,3 +197,14 @@ body{
 .flipped{
     transform: rotateY(180deg);
 }
+
+.line{
+    background-color: var(--secondary-dark-color);
+    height: 0.1vh;
+}
+
+.social-icon{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
