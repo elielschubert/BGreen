@@ -43,10 +43,12 @@ body{
     height: 6.5vh;
 }
 
-.about-bgreen{
+.about-companies{
     height: 50vh;
     background-color: var(--primary-light-color);
     margin-bottom: 12vh;
+    display: flex;
+    flex-direction: row;
 }
 
 .justify-center{
@@ -99,11 +101,27 @@ body{
     color: var(--primary-dark-color-hover);
 }
 
+.title,
+.company-name{
+    font-family: "Archive";
+    cursor: default;
+}
+
 .title{
     font-size: 1.25vw;
     color: var(--primary-dark-color);
-    font-family: "Archive";
-    cursor: default;
+}
+
+.company-name{
+    font-size: 3vw;
+    color: var(--secondary-dark-color);
+}
+
+.about-company-title{
+    color: var(--secondary-dark-color);
+    font-family: "Glacial Indifference Bold";
+    font-size: 1.25vw;
+    margin-top: 4vh;
 }
 
 .paragraph-section{
@@ -118,86 +136,47 @@ body{
     cursor: default;
 }
 
-.image{
-    margin-left: 1vw;
-    margin-right: 1vw;
-}
-
-
-.img-container {
-    width: 29.688vw;
-    height: 57vh;
-    perspective: 1000px;
-}
-
-.img-container:hover {
-    transform: translateY(-3vh);
-    transition: all 600ms;
-    cursor: pointer;
-}
-
-.img-container:not(:hover) {
-    transform: translateY(0);
-    transition: all 600ms;
-    cursor: pointer;
-}
-
-.img-card__inner{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.6s linear;
-}
-.face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
-.back{
-    overflow: hidden;
-    display: block;
-    transform: rotateY(180deg);
-    background-color: var(--primary-light-color);
-}
-
-.img-1,  
-.img-2,
-.img-3,
-.back{
-    transition: all .5s linear;
-    background-repeat: no-repeat;
-}
-
-.back{
-    border-radius: 0.5vw;
-}
-
-/* Front Card */
-.img-1{
-    background-image: url(../media/cardboard570.jpg);
-}
-
-.img-2{
-    background-image: url(../media/envelope570.jpg);
-}
-
-.img-3{
-    background-image: url(../media/bottlecap570.jpg);
-}
-
-.flipped{
-    transform: rotateY(180deg);
-}
-
-.line{
-    background-color: var(--secondary-dark-color);
-    height: 0.1vh;
-}
-
 .social-icon{
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
 
+.company-info{
+    width: 30vw;
+    height: 50vh;
+}
+
+.company-img{ 
+    width: 40vw;
+    height: 50vh;
+    max-height: 500px;
+}
+
+.padding-text{
+    padding: 1.5vw;
+}
+
+.text-div-margin-top{
+    margin-top: 7vh;
+}
+
+.paragraph-margin-top{
+    margin-top: 5vh;
+}
+
+.address-list{
+    list-style: disc;
+    padding:0;
+    margin-left: 1vw;
+    font-family: "Glacial Indifference";
+    font-size: 1vw;
+}
+
+.address-list li{
+    padding-top: 5vh;
+}
+
+.address-link{
+    color: var(--secondary-dark-color);
+    text-decoration: none;
+}
