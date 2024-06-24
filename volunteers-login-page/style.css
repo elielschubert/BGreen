@@ -95,15 +95,27 @@ body{
     color: var(--primary-dark-color);
 }
 
+.login-link{
+    text-decoration: none;
+}
+
 .list-link:hover{
     color: var(--primary-dark-color-hover);
 }
 
-.title{
-    font-size: 1.25vw;
+.title-sm,
+.title-lg{
     color: var(--primary-dark-color);
     font-family: "Archive";
     cursor: default;
+}
+
+.title-sm{
+    font-size: 1.25vw;
+}
+
+.title-lg{
+    font-size: 2.083vw;
 }
 
 .paragraph-section{
@@ -118,86 +130,78 @@ body{
     cursor: default;
 }
 
-.image{
-    margin-left: 1vw;
-    margin-right: 1vw;
+.text-input,
+.number-input,
+.date-input,
+.time-input,
+.email-input,
+.file-input,
+.password-input,
+.search-input{
+    padding-bottom: 3px;
+    border: none;
+    border-bottom-style: solid; 
+    border-bottom-width: 0.5px;
+    border-color: #515C2C;
+    color: #515C2C;
+    width: 25vw;
+    margin: 20px;
+    font-family: 'Glacial Indifference Regular';
+    font-size: 1vw;
+    outline: none;
 }
 
-
-.img-container {
-    width: 29.688vw;
-    height: 57vh;
-    perspective: 1000px;
+.text-input:focus,
+.number-input:focus
+.date-input:focus,
+.time-input:focus
+.email-input:focus,
+.file-input:focus,
+.password-input:focus,
+.search-input:focus{
+    border-color: var(--primary-dark-color);
+    color: var(--primary-dark-color);
 }
 
-.img-container:hover {
-    transform: translateY(-3vh);
-    transition: all 600ms;
-    cursor: pointer;
+.text-input::placeholder,
+.number-input::placeholder,
+.email-input::placeholder,
+.password-input::placeholder,
+.search-input::placeholder{
+    color: var(--primary-dark-color);
 }
 
-.img-container:not(:hover) {
-    transform: translateY(0);
-    transition: all 600ms;
-    cursor: pointer;
+.number-input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+.date-input,
+.time-input{
+    cursor: text;
 }
 
-.img-card__inner{
-    width: 100%;
-    height: 100%;
-    transform-style: preserve-3d;
-    transition: all 0.6s linear;
-}
-.face{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
+.form-style{
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
 }
 
-.back{
-    overflow: hidden;
-    display: block;
-    transform: rotateY(180deg);
-    background-color: var(--primary-light-color);
+.primary-button{
+    background-color: var(--primary-dark-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--light-background-color);
+    font-family: 'Archive';
+    font-size: 1.45vh;
+    padding: 15px;
+    text-align: center;
+    width: 7vw;
 }
 
-.img-1,  
-.img-2,
-.img-3,
-.back{
-    transition: all .5s linear;
-    background-repeat: no-repeat;
+.primary-button:hover{
+    background-color: var(--primary-dark-color-hover);
 }
 
-.back{
-    border-radius: 0.5vw;
+.advice-margin{
+    margin-top: 30.45vh;
 }
-
-/* Front Card */
-.img-1{
-    background-image: url(../media/cardboard570.jpg);
-}
-
-.img-2{
-    background-image: url(../media/envelope570.jpg);
-}
-
-.img-3{
-    background-image: url(../media/bottlecap570.jpg);
-}
-
-.flipped{
-    transform: rotateY(180deg);
-}
-
-.line{
-    background-color: var(--secondary-dark-color);
-    height: 0.1vh;
-}
-
-.social-icon{
-    margin-left: 0.5vw;
-    margin-right: 0.5vw;
-}
-
