@@ -13,7 +13,12 @@
 
 <body>
     <div class="row header align-center">
-        <div class="col-12 justify-center align-center">
+        <div class="col-4 justify-start align-center">
+            <a href="../landing-page/landing-page.php"><svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.49844 12.9375H23V10.0625H5.49844L13.5484 2.0125L11.5 0L0 11.5L11.5 23L13.5484 20.9875L5.49844 12.9375Z" fill="#4A5425"/>
+                </svg></a>
+        </div>
+        <div class="col-4 justify-center align-center">
             <svg width="246" height="89" viewBox="0 12 246 89" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M236.57 15.8018C236.765 16.0457 236.842 16.3211 236.797 16.6261C235.575 18.4755 234.035 20.0119 232.178 21.2332C231.484 20.0962 230.792 18.9612 230.098 17.8242C232.111 16.6126 234.269 15.9399 236.57 15.8018Z"
@@ -53,6 +58,7 @@
                     fill="#4A5425" />
             </svg>
         </div>
+        <div class="col-4"></div>
     </div>
     <div class="row section">
         <div class="col-12 justify-center align-end">

@@ -78,6 +78,9 @@
                 <div class="col-12 justify-center">
                     <button type="submit" class="primary-button"> Salvar </button>
                 </div>
+                <div class="col-12 justify-center">
+                    <a href="delete-volunteer-account.php?voluntario=<?php echo $_SESSION['id_voluntario']; ?>" class="secundary-danger-button"> Excluir conta </a>
+                </div>
             </form>
         </div>
         <div class="col-4 justify-center align-center">

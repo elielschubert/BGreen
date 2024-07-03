@@ -11,6 +11,7 @@
     --light-background-color: #ffffff;
     --secondary-dark-color: #000000;
     --danger-color: #9E2A2A;
+    --secundary-danger-color: #6E1D1D;
 }
 
 @font-face {
@@ -206,6 +207,22 @@ body{
 
 .primary-button:hover{
     background-color: var(--primary-dark-color-hover);
+}
+
+.secundary-danger-button{
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    border-radius: 5px;
+    color: var(--danger-color);
+    font-family: 'Archive';
+    font-size: 1.45vh;
+    padding: 15px;
+    text-align: center;
+}
+
+.secundary-danger-button:hover{
+    color: var(--secundary-danger-color);
 }
 
 .advice-margin{

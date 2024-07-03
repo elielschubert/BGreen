@@ -8,7 +8,6 @@
     $sql -> execute([$id_voluntario]);
 
     $voluntario = $sql -> fetch();
-
+    
     unset($sql);
-    //unset($conn);
 ?>
