@@ -22,7 +22,7 @@ include_once("../database/conexao.php");
             <ul class="list space-around">
                 <li><a class="list-link" href="../landing-page/landing-page.php"> Inicio </a></li>
                 <li><a class="list-link" href="../companies-screen/companies.php"> Empresas </a></li>
-                <li><a class="list-link" href="#"> Eventos </a></li>
+                <li><a class="list-link" href="../events-page/events-page.php""> Eventos </a></li>
             </ul>
         </div>
         <div class="col-4 justify-center align-center">
@@ -56,7 +56,7 @@ include_once("../database/conexao.php");
             <ul class="list space-around">
                 <li><a class="list-link" href="../landing-page/landing-page.php"> Início </a></li>
                 <li><a class="list-link" href="../companies-screen/companies.php"> Empresas </a></li>
-                <li><a class="list-link" href="#"> Eventos </a></li>
+                <li><a class="list-link" href="../events-page/events-page.php"> Eventos </a></li>
             </ul>
         </div>
         <div class="col-4 justify-center align-center">

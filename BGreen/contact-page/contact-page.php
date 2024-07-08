@@ -45,7 +45,7 @@ include_once("../database/conexao.php");
             <ul class="list space-around">
                 <li><a class="list-link" href="../company-register/company-register.php"> Seja parceiro </a></li>
                 <li><a class="list-link" href="#"> Contato </a></li>
-                <li><a href="../logout/logout.php?token='.md5(session_id()).'"> Sair </a><li>
+                <li><a class="list-link" href="../logout/logout.php?token='.md5(session_id()).'"> Sair </a><li>
                 <li><a class="list-link" href="#"> Meu perfil </a></li>
             </ul>
         </div>
