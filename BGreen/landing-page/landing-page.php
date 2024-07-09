@@ -45,8 +45,17 @@ include_once("../database/conexao.php");
             <ul class="list space-around">
                 <li><a class="list-link" href="../company-register/company-register.php"> Seja parceiro </a></li>
                 <li><a class="list-link" href="../contact-page/contact-page.php"> Contato </a></li>
-                <li><a class="list-link" href="../logout/logout.php?token='.md5(session_id()).'"> Sair </a><li>
-                <li><a class="list-link" href="../user-profile/user-profile.php"> Meu perfil </a></li>
+                <div class="dropdown">
+                    <li class="list-link"> Olá, ', $_SESSION['nome_voluntario'], '!</li>
+                    <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.2535 1.13386L6.49981 6.88757L0.746094 1.13386L1.76738 0.112573L6.49981 4.845L11.2322 0.112573L12.2535 1.13386Z" fill="#515C2C"/>
+                    </svg>
+                    <div class="dropdown-content">
+                        <a class="list-link" href="../user-profile/edit-volunteer.php">Meu perfil</a>
+                        <a class="list-link" href="../events-page/events-page.php">Eventos</a>
+                        <a class="list-link" href="../logout/logout.php?token='.md5(session_id()).'">Sair</a>
+                    </div>
+                </div>
             </ul>
         </div>
     </div>';

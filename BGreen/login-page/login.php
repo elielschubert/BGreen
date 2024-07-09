@@ -14,6 +14,7 @@
             session_start();
             $_SESSION['loggedin'] = true;
             $_SESSION['id_voluntario'] = $voluntario['id_voluntario'] ;
+            $_SESSION['nome_voluntario'] = $voluntario['nome_voluntario'] ;
             header("location: ../landing-page/landing-page.php");
         
         }else{
