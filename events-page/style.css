@@ -160,6 +160,11 @@ body{
     outline: none;
 }
 
+.search-input,
+.search-input:hover{
+    width: 26.7vw;
+}
+
 .text-input:focus,
 .number-input:focus
 .date-input:focus,
@@ -214,8 +219,9 @@ body{
     background-color: var(--primary-dark-color);
 }
 
-.secundary-button{
-    background-color: var(--light-background-color);
+.secundary-button,
+.secundary-button-sm{
+    background-color: transparent;
     border-color: var(--primary-dark-color);
     width: 192px;
     border-style: solid;
@@ -227,8 +233,9 @@ body{
     text-align: center;
 }
 
-.secundary-button:hover{
-    background-color: var(--light-background-color);
+.secundary-button:hover,
+.secundary-button-sm:hover{
+    background-color: transparent;
     border-color: var(--secundary-dark-color-hover);
     color: var(--primary-dark-color-hover);
     width: 192px;
@@ -242,10 +249,17 @@ body{
     cursor: pointer;
 }
 
+.secundary-button-sm,
+.secundary-button-sm:hover{
+    padding: 8px;
+    width: 150px;
+}
+
 .search-input{
     background-image: url(../icons/component-icons/search-icon.svg);
     background-repeat: no-repeat;
     background-position: right;
+    font-family: 'Glacial Indifference';
 }
 
 .btn-reg-margin{
