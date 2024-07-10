@@ -9,7 +9,7 @@
     $id_voluntario = $_GET["voluntario"];
 
     $sql = $conn->prepare("UPDATE voluntario SET nome_voluntario = ?, nome_de_usuario_voluntario = ?, email_voluntario = ?, senha_voluntario = ? WHERE id_voluntario = ?;");
-    $sql -> execute([$nome_voluntario, $nome_de_usuario_voluntario, $email_voluntario, $senha_voluntario, $id_voluntario]);
+    $sql -> execute([$nome_voluntario, $nome_de_usuario_voluntario, $email_voluntario, md5($senha_voluntario), $id_voluntario]);
 
     unset($sql);
     unset($conn);

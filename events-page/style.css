@@ -307,6 +307,69 @@ body{
     background-position-y: 50%;
 }
 
+.buttons-row{
+    padding-bottom: 10vh;
+}
+
+.event-row{
+    height: max-content;
+}
+
+.event-col-left{
+    padding-top: 2.5vh;
+    display:flex;
+    justify-content: end;
+}
+
+.event-col-right{
+    padding-top: 2.5vh;
+    display:flex;
+    justify-content: start;
+}
+
+.event-card{
+    background-color: var(--primary-light-color);
+    width: 95%;
+    padding: 1vw;
+    border-radius: 5px;
+
+}
+
+.event-title{
+    text-align: center;
+    font-family: 'Archive';
+    font-size: 2.038vw;
+    padding: 1vw;
+    margin-bottom: 2vw;
+}
+
+.event-data{
+    font-family: 'Glacial Indifference';
+    font-size: 1.25vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+}
+
+.button-col{
+    display: flex;
+    justify-content: end;
+    padding-right: 1vw;
+    margin-top: 5vw;
+}
+
+.space-top{
+    padding-top: 10vh;
+}
+
+.space-sm{
+    padding-top: 5vh;
+}
+
+.social-icon{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
 .dropdown {
     display: block;
   }
@@ -318,10 +381,29 @@ body{
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     left: 90vw;
-    padding: 12px 16px 12px 16px;
+    padding: 5px;
   }
   
   .dropdown:hover .dropdown-content {
     display: flex; 
     flex-direction: column;
   }
+
+  .dropdown-company {
+    display: block;
+  }
+  
+  .dropdown-content-company {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+  }
+  
+  .dropdown-company:hover .dropdown-content-company {
+    display: flex; 
+    flex-direction: column;
+  }
+

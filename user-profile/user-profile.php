@@ -63,7 +63,7 @@
     </div>
     <div class="row section">
         <div class="col-12 justify-center align-end">
-            <h2 class="title-lg"> Meu Perfil </h2>
+            <h2 class="title-lg"> Informações da conta </h2>
         </div>
     </div>
     <div class="row">
@@ -103,10 +103,10 @@
         </div>
         <div class="col-4 justify-center align-center">
             <form action="edit-volunteer.php?voluntario=<?php echo $_SESSION['id_voluntario']; ?>" class="form-style" method="post">
-                <input type="text" class="text-input edit-input" name="nome_voluntario" required value="<?php echo $voluntario["nome_voluntario"]; ?>">
-                <input type="text" class="text-input edit-input" name="nome_de_usuario_voluntario" required value="<?php echo $voluntario["nome_de_usuario_voluntario"]; ?>">
-                <input type="text" class="email-input edit-input" name="email_voluntario" required value="<?php echo $voluntario["email_voluntario"]; ?>">
-                <input type="password" class="password-input edit-input" name="senha_voluntario" required value="<?php echo $voluntario["senha_voluntario"];?>">
+                <input type="text" class="text-input edit-input" name="nome_voluntario" placeholder="Insira seu nome" required value="<?php echo $voluntario["nome_voluntario"]; ?>">
+                <input type="text" class="text-input edit-input" name="nome_de_usuario_voluntario" placeholder="Insira seu nome de usuário" required value="<?php echo $voluntario["nome_de_usuario_voluntario"]; ?>">
+                <input type="text" class="email-input edit-input" name="email_voluntario" placeholder="Insira seu e-mail" required value="<?php echo $voluntario["email_voluntario"]; ?>">
+                <input type="password" class="password-input edit-input" name="senha_voluntario" placeholder="Informe a nova senha" required value="<?php echo $voluntario["senha_voluntario"];?>">
                 <div class="col-12 justify-center">
                     <button type="submit" class="primary-button"> Salvar </button>
                 </div>

@@ -43,6 +43,12 @@ body{
     height: 6.5vh;
 }
 
+.about-bgreen{
+    height: 50vh;
+    background-color: var(--primary-light-color);
+    margin-bottom: 12vh;
+}
+
 .justify-center{
     justify-content: center;
     display: flex;
@@ -94,7 +100,7 @@ body{
 }
 
 .title{
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     color: var(--primary-dark-color);
     font-family: "Archive";
     cursor: default;
@@ -117,6 +123,74 @@ body{
     margin-right: 1vw;
 }
 
+
+.img-container {
+    width: 29.688vw;
+    height: 57vh;
+    perspective: 1000px;
+}
+
+.img-container:hover {
+    transform: translateY(-3vh);
+    transition: all 600ms;
+    cursor: pointer;
+}
+
+.img-container:not(:hover) {
+    transform: translateY(0);
+    transition: all 600ms;
+    cursor: pointer;
+}
+
+.img-card__inner{
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.6s linear;
+}
+.face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.back{
+    overflow: hidden;
+    display: block;
+    transform: rotateY(180deg);
+    background-color: var(--primary-light-color);
+}
+
+.img-1,  
+.img-2,
+.img-3,
+.back{
+    transition: all .5s linear;
+    background-repeat: no-repeat;
+}
+
+.back{
+    border-radius: 0.5vw;
+}
+
+/* Front Card */
+.img-1{
+    background-image: url(../media/cardboard570.jpg);
+}
+
+.img-2{
+    background-image: url(../media/envelope570.jpg);
+}
+
+.img-3{
+    background-image: url(../media/bottlecap570.jpg);
+}
+
+.flipped{
+    transform: rotateY(180deg);
+}
+
 .line{
     background-color: var(--secondary-dark-color);
     height: 0.1vh;
@@ -126,26 +200,60 @@ body{
     margin-left: 0.5vw;
     margin-right: 0.5vw;
 }
-.contact{
-    border: none;
-    border-left-style: solid;
-    border-left-width: 1pt;
+
+.social-infos{
+    height: 80vh;
 }
-.contact-list{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+
+.title-mg-top{
+    margin-top: 15vh;
+}
+
+.contact-text{
     font-family: "Glacial Indifference";
-    font-size: 1vw;
+    font-size: 1.667vw;
+    padding-top: 5vh;
 }
 
-.contact-list-link{
-    text-decoration: none;
-    width: fit-content;
+.vertical-line{
+    height: 60vh;
+    background-color: var(--primary-dark-color);
+    width: 0.1vw;
+}
+
+.dropdown {
     display: block;
-    color: var(--primary-dark-color);
-}
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    left: 90vw;
+    padding: 5px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: flex; 
+    flex-direction: column;
+  }
 
-.contact-list-link:hover{
-    color: var(--primary-dark-color-hover);
-}
+  .dropdown-company {
+    display: block;
+  }
+  
+  .dropdown-content-company {
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 5px;
+  }
+  
+  .dropdown-company:hover .dropdown-content-company {
+    display: flex; 
+    flex-direction: column;
+  }
