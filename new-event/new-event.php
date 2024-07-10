@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <title> Registre-se </title>
+    <title> Entrar </title>
     <link rel="shortcut icon" href="../icons/favicon.svg" type="image/svg">
 </head>
 
@@ -58,16 +58,13 @@
                     fill="#4A5425" />
             </svg>
         </div>
-        <div class="col-4"></div>
+        <div class="col-4">
+
+        </div>
     </div>
     <div class="row section">
         <div class="col-12 justify-center align-end">
-            <h2 class="title-lg">Registre-se</h2>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-12 justify-center">
-            <label>Já possui uma conta? <a class="login-link" href="../login-page/login-page.html">Login</a></label>
+            <h2 class="title-lg"> Criar evento </h2>
         </div>
     </div>
     <div class="row">
@@ -161,22 +158,41 @@
                     d="M25.0366 271.231C26.5337 271.075 27.2292 271.693 27.123 273.085C24.9972 273.972 24.3017 273.354 25.0366 271.231Z"
                     fill="white" />
             </svg>
-
         </div>
-        <div class="col-4 justify-center">
-            <form action="volunteers-insert.php" class="form-style" method="POST">
-                <input type="text" class="text-input" placeholder="Nome" name="nome_voluntario" required>
-                <input type="text" class="text-input" placeholder="Nome de usuário" name="nome_de_usuario_voluntario" required>
-                <input type="email" class="email-input" placeholder="E-mail" name="email_voluntario" required>
-                <input type="password" class="password-input" placeholder="Senha" name="senha_voluntario" id="senha" required>
-                <input type="password" class="password-input" placeholder="Confirme sua senha" name="senha_confirmacao_voluntario" id="senhaC" required>
-                <div class="justify-center btn-reg-margin">
-                    <input class="primary-button" type="submit" value="Registre-se" onclick="return validarSenha()">
+        <div class="col-4 justify-center align-center">
+            <form action="login.php" class="form-style" method="post">
+                <div class="row">
+                    <div class="col-12">
+                        <input type="text" class="text-input" placeholder="Nome do evento" name="nome_evento" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <input type="date" class="date-input" placeholder="Data" name="data_evento" required>
+                    </div>
+                    <div class="col-6">
+                        <input type="time" class="time-input" placeholder="Hora" name="hora_evento" required>
+                    </div>
+                </div>
+                
+                
+                
+                <input type="text" class="text-input" placeholder="Nome do evento" name="login" required>
+                <input type="text" class="text-input" placeholder="Nome do evento" name="login" required>
+                <input type="text" class="text-input" placeholder="Nome do evento" name="login" required>
+                <input type="text" class="text-input" placeholder="Nome do evento" name="login" required>
+                <input type="text" class="text-input" placeholder="Nome do evento" name="login" required>
+                <input type="text" class="text-input" placeholder="Nome do evento" name="login" required>
+                
+
+                <div class="col-12 justify-center">
+                    <button type="submit" class="primary-button"> Criar </button>
                 </div>
             </form>
         </div>
         <div class="col-4 justify-center align-center">
             <svg width="182" height="285" viewBox="0 0 182 285" fill="none" xmlns="http://www.w3.org/2000/svg">
+                
                 <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M145.911 0.0199768C146.523 -0.0588423 147.065 0.0955504 147.534 0.483619C149.393 4.44451 150.399 8.61729 150.547 13.0019C147.919 13.0019 145.294 13.0019 142.666 13.0019C142.693 8.36553 143.778 4.03836 145.911 0.0199768Z"
                     fill="#FDECA3" />
@@ -280,6 +296,8 @@
 
         </div>
     </div>
+    <div class="row">
+
     </div>
     <div class="row section-secondary">
         <div class="col-12 align-end justify-center">

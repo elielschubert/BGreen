@@ -14,12 +14,12 @@
         $sql -> execute([$nome_voluntario, $nome_de_usuario_voluntario, $email_voluntario, $senha_voluntario]);
         echo '<div class="paragraph"> Voluntário cadastrado com sucesso! </div>';
         //colocar um timer
-        //header("location: ../volunteers-login-page/volunteers-login-page.php");
+        header("location: ../login-page/login-page.html");
     } else {
-        // echo '<div class="paragraph"> As senhas não coincidem! </div>';
+        echo '<div class="paragraph"> As senhas não coincidem! </div>';
         //estilizar errinho >.<
         //colocar um timer
-        //header("location: ../register-page/register-page.php");
+        header("location: ../register-page/register-page.php");
     }
 
     unset($sql);

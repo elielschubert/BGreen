@@ -54,6 +54,11 @@ body{
     display: flex;
 }
 
+.justify-start{
+    justify-content: left;
+    margin-left: 2vw;
+}
+
 .align-center{
     display: flex;
     align-items: center;

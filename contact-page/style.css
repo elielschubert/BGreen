@@ -43,20 +43,9 @@ body{
     height: 6.5vh;
 }
 
-.about-bgreen{
-    height: 50vh;
-    background-color: var(--primary-light-color);
-    margin-bottom: 12vh;
-}
-
 .justify-center{
     justify-content: center;
     display: flex;
-}
-
-.justify-start{
-    justify-content: left;
-    margin-left: 2vw;
 }
 
 .align-center{
@@ -100,27 +89,15 @@ body{
     color: var(--primary-dark-color);
 }
 
-.login-link{
-    text-decoration: none;
-}
-
 .list-link:hover{
     color: var(--primary-dark-color-hover);
 }
 
-.title-sm,
-.title-lg{
+.title{
+    font-size: 1.25vw;
     color: var(--primary-dark-color);
     font-family: "Archive";
     cursor: default;
-}
-
-.title-sm{
-    font-size: 1.25vw;
-}
-
-.title-lg{
-    font-size: 2.083vw;
 }
 
 .paragraph-section{
@@ -135,85 +112,40 @@ body{
     cursor: default;
 }
 
-.text-input,
-.number-input,
-.date-input,
-.time-input,
-.email-input,
-.file-input,
-.password-input,
-.search-input{
-    padding-bottom: 3px;
+.image{
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.line{
+    background-color: var(--secondary-dark-color);
+    height: 0.1vh;
+}
+
+.social-icon{
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+.contact{
     border: none;
-    border-bottom-style: solid; 
-    border-bottom-width: 0.5px;
-    border-color: #515C2C;
-    color: #515C2C;
-    width: 25vw;
-    margin: 20px;
-    font-family: 'Glacial Indifference Regular';
+    border-left-style: solid;
+    border-left-width: 1pt;
+}
+.contact-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Glacial Indifference";
     font-size: 1vw;
-    outline: none;
 }
 
-.text-input:focus,
-.number-input:focus
-.date-input:focus,
-.time-input:focus
-.email-input:focus,
-.file-input:focus,
-.password-input:focus,
-.search-input:focus{
-    border-color: var(--primary-dark-color);
+.contact-list-link{
+    text-decoration: none;
+    width: fit-content;
+    display: block;
     color: var(--primary-dark-color);
 }
 
-.text-input::placeholder,
-.number-input::placeholder,
-.email-input::placeholder,
-.password-input::placeholder,
-.search-input::placeholder{
-    color: var(--primary-dark-color);
-}
-
-.number-input::-webkit-inner-spin-button{
-    -webkit-appearance: none;
-}
-.date-input,
-.time-input{
-    cursor: text;
-}
-
-.form-style{
-    display: flex;
-    flex-direction: column;
-    margin-top: 4vh;
-}
-
-.primary-button{
-    background-color: var(--primary-dark-color);
-    border: none;
-    border-radius: 5px;
-    color: var(--light-background-color);
-    font-family: 'Archive';
-    font-size: 1.45vh;
-    padding: 15px;
-    text-align: center;
-    width: 7vw;
-}
-
-.primary-button:hover{
-    background-color: var(--primary-dark-color-hover);
-}
-
-.primary-button:active{
-    background-color: var(--primary-dark-color);
-}
-
-.btn-reg-margin{
-    margin-top: 4vh;
-}
-
-.advice-margin{
-    margin-top: 15vh;
+.contact-list-link:hover{
+    color: var(--primary-dark-color-hover);
 }

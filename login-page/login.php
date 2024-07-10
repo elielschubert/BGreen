@@ -1,28 +1,29 @@
 <?php
-    include_once("conexao.php");
+    include_once("../database/conexao.php");
 
     $login = $_POST["login"];
     $senha = $_POST["senha"];
 
-    $sql = $conn -> prepare("SELECT pk_usuario, email_usuario, senha_usuario, eh_adm_usuario FROM usuario WHERE email_usuario = ?");
+    $sql = $conn -> prepare("SELECT id_voluntario, nome_voluntario, nome_de_usuario_voluntario, email_voluntario FROM voluntario WHERE nome_de_usuario_voluntario = ?"); //or select where email_empresa
 
-    $sql -> execute([$email]);
+    $sql -> execute([$login]);
 
     if($sql-> rowCount() == 1){
-        $usuario = $sql -> fetch();
-        if ($usuario['senha_usuario'] = MD5($senha)){
+        $voluntario = $sql -> fetch();
+        if ($voluntario['senha_voluntario'] = MD5($senha)){
             session_start();
             $_SESSION['loggedin'] = true;
-
-            header("location:pagina-inicial.php");
+            $_SESSION['id_voluntario'] = $voluntario['id_voluntario'] ;
+            $_SESSION['nome_voluntario'] = $voluntario['nome_voluntario'] ;
+            header("location: ../landing-page/landing-page.php");
         
         }else{
-            echo("E-mail ou senha inválidos");
+            echo("Login ou senha inválidos");
         }
     }
     
     else{
-        echo("E-mail ou senha inválidos");
+        echo("Login ou senha inválidos");
     }
 
     unset($sql);

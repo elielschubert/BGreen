@@ -15,12 +15,12 @@
         $sql -> execute([$nome_empresa, $nome_de_usuario_empresa, $cnpj_empresa, $email_empresa, $senha_empresa]);
         echo '<div class="paragraph"> Empresa cadastrada com sucesso! </div>';
         //colocar um timer
-        //header("location: ../volunteers-login-page/volunteers-login-page.php");
+        header("location: ../login-page/login-page.html");
     } else {
         echo '<div class="paragraph"> As senhas não coincidem! </div>';
         //estilizar errinho >.<
         //colocar um timer
-        //header("location: ../register-page/register-page.php");
+        header("location: ../register-page/register-page.php");
     }
 
     unset($sql);
