@@ -172,6 +172,15 @@ body{
 
 .back{
     border-radius: 0.5vw;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.card-info{
+    width: 40%;
+    height: 50%;
+    background-color: var();
 }
 
 /* Front Card */

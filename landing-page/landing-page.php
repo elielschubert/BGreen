@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <?php
-include_once("../database/conexao.php");
+    include_once("../database/conexao.php");
+    include_once("../functions-library/functions.php");
 ?>
 
 <head>
@@ -56,19 +57,32 @@ include_once("../database/conexao.php");
                 </div>
             </div>';
         };
-        echo '<li><a class="list-link" href="../contact-page/contact-page.php"> Contato </a></li>
-                <div class="dropdown">
-                    <li class="list-link"> Olá, ', $_SESSION['nome'], '!</li>
-                    <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+        echo '<li><a class="list-link" href="../contact-page/contact-page.php"> Contato </a></li>';
+        if (isset($_SESSION['id_empresa'])){ 
+            echo '<div class="dropdown">
+            <li class="list-link"> Olá, ', showFirstName($_SESSION['nome']), '!</li>
+                <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.2535 1.13386L6.49981 6.88757L0.746094 1.13386L1.76738 0.112573L6.49981 4.845L11.2322 0.112573L12.2535 1.13386Z" fill="#515C2C"/>
-                    </svg>
-                    <div class="dropdown-content">
-                        <a class="list-link" href="../user-profile/edit-volunteer.php">Meu perfil</a>
-                        <a class="list-link" href="../events-page/events-page.php">Eventos</a>
-                        <a class="list-link" href="../logout/logout.php?token='.md5(session_id()).'">Sair</a>
-                    </div>
+                </svg>
+                <div class="dropdown-content">
+                    <a class="list-link" href="../company-profile/company-profile.php">Meu perfil</a>
+                    <a class="list-link" href="../logout/logout.php?token='.md5(session_id()).'">Sair</a>
                 </div>
-            </ul>
+            </div>';
+        } else {
+                echo '<div class="dropdown">
+                        <li class="list-link"> Olá, ', showFirstName($_SESSION['nome']), '!</li>
+                            <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.2535 1.13386L6.49981 6.88757L0.746094 1.13386L1.76738 0.112573L6.49981 4.845L11.2322 0.112573L12.2535 1.13386Z" fill="#515C2C"/>
+                            </svg>
+                            <div class="dropdown-content">
+                                <a class="list-link" href="../user-profile/edit-volunteer.php">Meu perfil</a>
+                                <a class="list-link" href="../events-page/events-page.php">Meus Eventos</a>
+                                <a class="list-link" href="../logout/logout.php?token='.md5(session_id()).'">Sair</a>
+                            </div>
+                        </div>';
+        }
+        echo '</ul>
         </div>
     </div>';
     } else {
@@ -126,7 +140,12 @@ include_once("../database/conexao.php");
                 <div class="img-card__inner clickcard">
                     <div class="img-1 face"></div>
                     <div class="back face">
-                        <h2 class="title text-center">Sobre o evento</h2>
+                        <div class="row">
+
+                        </div>
+                        <div class="row">
+
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +153,7 @@ include_once("../database/conexao.php");
                 <div class="img-card__inner clickcard">
                     <div class="img-2 face"></div>
                     <div class="back face">
-                        <h2 class="title text-center">Sobre o evento</h2>
+                        
                     </div>
                 </div>
             </div>
@@ -142,7 +161,7 @@ include_once("../database/conexao.php");
                 <div class="img-card__inner clickcard">
                     <div class="img-3 face"></div>
                     <div class="back face">
-                        <h2 class="title text-center">Sobre o evento</h2>
+                        
                     </div>
                 </div>
             </div>

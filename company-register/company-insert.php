@@ -15,7 +15,8 @@
         $sql -> execute([$nome_empresa, $nome_de_usuario_empresa, $cnpj_empresa, $email_empresa, $senha_empresa]);
         echo '<div class="paragraph"> Empresa cadastrada com sucesso! </div>';
         //colocar um timer
-        header("location: ../companies-login-page/companies-login-page.html");
+        $id_empresa = $empresa['id_empresa'];
+        header("location: ../company-register/create-collection-point.html");
     } else {
         echo '<div class="paragraph"> As senhas não coincidem! </div>';
         //estilizar errinho >.<

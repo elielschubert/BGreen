@@ -18,7 +18,7 @@
             header("location: ../landing-page/landing-page.php");
         
         }else{
-            echo("Login ou senha inválidos");
+            echo"Login ou senha inválidos";
         }
     }
     
