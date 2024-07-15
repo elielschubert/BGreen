@@ -46,11 +46,12 @@
 <p> <strong> • Logout: </strong> As empresas tem a opção de deslogar para retornar ao menu anterior. </p>
 
 # TECNOLOGIAS UTILIZADAS:
-![PHP](https://img.shields.io/badge/PHP-768732?style=for-the-badge&logo=php_351&logo)
-![FIGMA](https://img.shields.io/badge/FIGMA-768732?style=for-the-badge&logo=figma_351&logo)
-![CANVA](https://img.shields.io/badge/CANVA-768732?style=for-the-badge&logo=canva_351&logo)
-![GITHUB](https://img.shields.io/badge/GITHUB-768732?style=for-the-badge&logo=github_351&logo)
-![VSCODE](https://img.shields.io/badge/VSCODE-768732?style=for-the-badge&logo=visual-studio-code_351&logo)
+![Figma](https://img.shields.io/badge/figma-%235442f5.svg?style=for-the-badge&logo=figma&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%235442f5.svg?style=for-the-badge&logo=php&logoColor=#777BB4)
+![HTML](https://img.shields.io/badge/html5-%235442f5.svg?style=for-the-badge&logo=html5&logoColor=#777BB4)
+![PHP](https://img.shields.io/badge/php-%235442f5.svg?style=for-the-badge&logo=php&logoColor=#777BB4)
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
 
