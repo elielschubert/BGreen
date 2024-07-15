@@ -48,8 +48,8 @@
 # TECNOLOGIAS UTILIZADAS:
 ![Figma](https://img.shields.io/badge/figma-%235442f5.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![PHP](https://img.shields.io/badge/php-%235442f5.svg?style=for-the-badge&logo=php&logoColor=#777BB4)
-![HTML](https://img.shields.io/badge/html5-%235442f5.svg?style=for-the-badge&logo=html5&logoColor=#777BB4)
-![PHP](https://img.shields.io/badge/php-%235442f5.svg?style=for-the-badge&logo=php&logoColor=#777BB4)
+![HTML](https://img.shields.io/badge/html5-%235442f5.svg?style=for-the-badge&logo=html5&logoColor=#E34F26)
+![CSS](https://img.shields.io/badge/css3-%235442f5.svg?style=for-the-badge&logo=css3&logoColor=#1572B6)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
