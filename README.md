@@ -16,11 +16,6 @@
 
 > <a href="https://www.figma.com/design/th8X2ZcgSPaSHABIxZZjNk/B-Green-Project?node-id=103-40&t=JOQdcv0RvVVVFFYb-1"><img src="https://img.shields.io/badge/FIGMA-768732?style=for-the-badge&logo=figma_351&logo"></a>
 
-# APRESENTAÇÕES DO PROJETO
-
-> <a href="https://www.canva.com/design/DAF0uILrYF4/CAb_UQeauH7ui0PrvK5l8g/view?utm_content=DAF0uILrYF4&utm_campaign=designshare&utm_medium=link&utm_source=editor"><img src="https://img.shields.io/badge/Primeira-Apresentação-768732?style=for-the-badge&logo=figma_351&logo"></a>
-
-> <a href="https://www.canva.com/design/DAF7SGmZbR8/I3hk6rgR7Bv4eU8Nshi9Pg/view?utm_content=DAF7SGmZbR8&utm_campaign=designshare&utm_medium=link&utm_source=editor"><img src="https://img.shields.io/badge/Segunda-Apresentação-768732?style=for-the-badge&logo=figma_351&logo"></a>
 
 <div align="left"> <h1> MANUAL DO VISITANTE </h1> </div>
 
