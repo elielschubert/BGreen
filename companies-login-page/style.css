@@ -35,6 +35,14 @@ body{
     overflow-x: hidden;
 }
 
+.paragraph {
+    font-size: 1vw;
+    color: var(--secondary-dark-color);
+    font-family: "Glacial Indifference";
+    text-align: justify;
+    cursor: default;
+}
+
 .header, .section{
     height: 13vh;
 }

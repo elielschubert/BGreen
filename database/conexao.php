@@ -1,7 +1,7 @@
 <?php
     date_default_timezone_set('America/Sao_Paulo');
     try{
-        $conn = new PDO("mysql:dbname=bgreenproject;host=localhost;charset=utf8","root","");
+        $conn = new PDO("mysql:dbname=bgreenproject;host=localhost;charset=utf8","root","root");
     }
     catch(PDOException $erro)
     {

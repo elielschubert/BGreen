@@ -173,20 +173,22 @@ include_once("../functions-library/functions.php");
                                 </div>
                             </div>
                         </div>
-                       <div>
-                       <div class="row">
-                            <div class="col-lg-12 justify-center">
-                                <h1 class="flipcard-info">+50 KG</h1>
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-12 justify-center">
+                                    <div>
+                                        <h1 class="flipcard-info">+50 KG</h1>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="flipcard-component">
-
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="flipcard-component">
+                                        <p>Coletados</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                       </div>
                     </div>
                 </div>
             </div>
@@ -194,7 +196,7 @@ include_once("../functions-library/functions.php");
                 <div class="img-card__inner clickcard">
                     <div class="img-2 face"></div>
                     <div class="back face">
-                    <div class="row">
+                        <div class="row">
                             <div class="col-lg-12">
                                 <div class="flipcard-title">
                                     <svg width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -227,6 +229,20 @@ include_once("../functions-library/functions.php");
                                 </div>
                             </div>
                         </div>
+                        <div>
+                            <div class="row">
+                                <div class="col-lg-12 justify-center">
+                                    <h1 class="flipcard-info">+50 KG</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="flipcard-component">
+                                        <p>Coletados</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -234,7 +250,7 @@ include_once("../functions-library/functions.php");
                 <div class="img-card__inner clickcard">
                     <div class="img-3 face"></div>
                     <div class="back face">
-                    <div class="row">
+                        <div class="row">
                             <div class="col-lg-12">
                                 <div class="flipcard-title">
                                     <svg width="44" height="32" viewBox="0 0 44 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -264,6 +280,20 @@ include_once("../functions-library/functions.php");
                                     <svg width="57" height="18" viewBox="0 0 57 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path fill-rule="evenodd" clip-rule="evenodd" d="M8.23729 0.0907797C12.9803 -0.395581 16.9987 1.07231 20.292 4.49538C22.1901 4.85099 24.0447 4.6966 25.8557 4.03173C28.0807 2.03112 30.6307 0.71716 33.5058 0.0907797C34.2012 0.168208 34.8967 0.245172 35.5922 0.322601C38.597 2.01721 41.6107 3.63996 44.6332 5.19084C47.314 3.88893 50.0184 2.6524 52.7469 1.48171C54.8199 1.62126 56.1334 2.70294 56.6879 4.7272C56.9971 5.80887 56.9971 6.89101 56.6879 7.97269C54.4772 11.5733 51.7728 14.7414 48.5741 17.4773C43.354 18.5757 39.3361 16.8755 36.5194 12.3773C35.7317 11.9331 34.8814 11.7013 33.9694 11.6818C31.0452 12.6402 28.1859 13.7993 25.392 15.1591C23.5811 15.824 21.7265 15.9784 19.8283 15.6228C16.7817 13.8605 13.5363 12.7014 10.0919 12.1455C7.61138 12.4315 5.21574 13.0496 2.90541 14C1.90812 13.9337 1.13523 13.4701 0.587203 12.6091C-0.773586 8.6 0.230663 5.27708 3.60088 2.64081C5.11559 1.65325 6.66091 0.803397 8.23729 0.0907797Z" fill="#AF5834" />
                                     </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="row justify-center">
+                                <div class="col-lg-12">
+                                    <h1 class="flipcard-info">+50 KG</h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="flipcard-component">
+                                        <p>Coletados</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
