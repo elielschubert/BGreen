@@ -7,10 +7,10 @@
 > [!TIP]
 > Lembre-se de fazer o download do banco de dados sql e do xampp. 
 
-> <a href="https://www.java.com/pt-BR/download/"><img src="https://img.shields.io/badge/XAMPP-768732?style=for-the-badge&logo=XAMPP&logo"></a>
+> <a href="https://www.java.com/pt-BR/download/"><img src="https://img.shields.io/badge/JDK-1.8.0_351-768732?style=for-the-badge&logo=jdk-1.8.0_351&logo"></a>
 
 # SOBRE O PROJETO
-<p> A ideia do projeto é ser uma rede social que conecte as empresas interessadas em preservar o meio ambiente e voluntários que gostam de se reunir para ajudar o planeta a continuar sendo um bom lugar para ser habitado por nós e pelas próximas gerações. </p>
+<p> A ideia do projeto é ser uma rede social que conecte as empresas interessadas em preservar o meio ambiente e voluntários que gostam de se reunir para ajudar o planeta a continuar sendo um bom lugar para ser habitado por nós e pelas próximas gerações, a principio estamos apenas com uma aplicação em terminal, mas já há uma prototipação e em breve planejamos iniciar uma implementação gráfica e banco de dados. </p>
 
 # PROTÓTIPO:
 
@@ -24,10 +24,11 @@
 
 <div align="left"> <h1> MANUAL DO VISITANTE </h1> </div>
 
+<h3> Os visitantes tem acesso a um menu com cinco funcionalidades, sendo elas: </h3>
 <p> <strong> • Visualizar eventos: </strong> Os visitantes podem visualizar os eventos criados pelos voluntários, ao apertar nesta opção serão listados os eventos programados. </p>
 <p> <strong> • Visualizar empresas: </strong> Os visitantes podem visualizar as empresas parceiras do projeto, ao apertar nesta opção são listadas as empresas cadastradas. </p>
-<p> <strong> • Menu voluntários: </strong> Os visitantes podem criar sua conta/logar como voluntários para terem acesso aos outros menus. Para isso deverão informar seu nome, nome de usuário, e-mail, senha e confirmar a senha, após isso serão redirecionados para a página de login, que deverão informar o nome de usuário e senha para se conectarem. </p>
-<p> <strong> • Menu empresas: </strong> Os visitantes podem cadastrar sua empresa/logar com ela para terem acesso aos outros menus. Para isso deverão informar o nome da empresa, nome de usuário da empresa, cnpj, uma senha de acesso, e a confirmação da senha. Após isso devem informar nome de usuário e senha para logarem </p>
+<p> <strong> • Menu voluntários: </strong> Os visitantes podem criar sua conta/logar como voluntários para terem acesso aos outros menus. Para isso deverão informar seu nome, nome de usuário, e-mail, senha e confirmar a senha, após isso estarão logados. </p>
+<p> <strong> • Menu empresas: </strong> Os visitantes podem cadastrar sua empresa/logar com ela para terem acesso aos outros menus. Para isso deverão informar o nome da empresa, cnpj, uma senha de acesso, o usuário responsável pela empresa. Após isso devem informar para onde vai o materia coletado e cadastrar um posto de coleta, contendo cidade, nome da rua e número. </p>
 
 # MANUAL DO VOLUNTÁRIO
 

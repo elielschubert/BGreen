@@ -14,9 +14,11 @@
     if($senha_empresa === $senha_confirmacao_empresa){
         $sql -> execute([$nome_empresa, $nome_de_usuario_empresa, $cnpj_empresa, $email_empresa, $senha_empresa]);
         echo '<div class="paragraph"> Empresa cadastrada com sucesso! </div>';
+        $sql = $conn -> prepare('SELECT id_empresa FROM empresa WHERE cnpj_empresa = $_POST["cnpj_empresa"]');
+        session_start();
+        $_SESSION['id_empresa'] = $empresa['id_empresa'];
         //colocar um timer
-        $id_empresa = $empresa['id_empresa'];
-        header("location: ../company-register/create-collection-point.html");
+        header("location: ../companies-login-page/companies-login-page.html");
     } else {
         echo '<div class="paragraph"> As senhas não coincidem! </div>';
         //estilizar errinho >.<
