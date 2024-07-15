@@ -46,7 +46,7 @@
 <p> <strong> • Logout: </strong> As empresas tem a opção de deslogar para retornar ao menu anterior. </p>
 
 # TECNOLOGIAS UTILIZADAS:
-![JAVA](https://img.shields.io/badge/Java-768732?style=for-the-badge&logo=java_351&logo)
+![PHP](https://img.shields.io/badge/PHP-768732?style=for-the-badge&logo=php_351&logo)
 ![FIGMA](https://img.shields.io/badge/FIGMA-768732?style=for-the-badge&logo=figma_351&logo)
 ![CANVA](https://img.shields.io/badge/CANVA-768732?style=for-the-badge&logo=canva_351&logo)
 ![GITHUB](https://img.shields.io/badge/GITHUB-768732?style=for-the-badge&logo=github_351&logo)
