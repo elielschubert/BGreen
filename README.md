@@ -30,7 +30,7 @@
 <h3> Os voluntários tem acesso a um menu com quatro funcionalidades, sendo elas: </h3>
 <p> <strong> • Visualizar eventos: </strong> Os voluntários podem visualizar os eventos criados pelos outros voluntários, ao apertar nesta opção serão listados os eventos programados. </p>
 <p> <strong> • Visualizar empresas: </strong> Os voluntários podem visualizar as empresas parceiras do projeto, ao apertar nesta opção são listadas as empresas cadastradas. </p>
-<p> <strong> • Menu empresas: </strong> Os voluntários podem cadastrar sua empresa/logar com ela para terem acesso aos outros menus. Para isso deverão informar o nome da empresa, cnpj, uma senha de acesso, o usuário responsável pela empresa.</p>
+<p> <strong> • Menu empresas: </strong> Os voluntários podem cadastrar sua empresa/logar com ela para terem acesso aos outros menus. Para isso deverão informar o nome da empresa, nome de usuário da empresa, cnpj, uma senha de acesso, e a confimação da sua senha.</p>
 <p> <strong> • Logout: </strong> Os voluntários tem a opção de deslogar para retornar a página anterior. </p>
 
 # MANUAL DA EMPRESA
@@ -38,6 +38,8 @@
 <h3> As empresas tem acesso a um menu com três funcionalidades, sendo elas: </h3>
 <p> <strong> • Visualizar eventos: </strong> As empresas podem visualizar os eventos criados pelos voluntários, ao apertar nesta opção serão listados os eventos programados. </p>
 <p> <strong> • Visualizar empresas: </strong> As empresas podem visualizar outras empresas parceiras do projeto, ao apertar nesta opção são listadas as empresas cadastradas. </p>
+<p> <strong> • Editar dados </strong> As empresas podem editar seus próprios dados. </p>
+<p> <strong> • Excluir conta: </strong> As empresas podem excluir sua própria conta. </p>
 <p> <strong> • Logout: </strong> As empresas tem a opção de deslogar para retornar ao menu anterior. </p>
 
 # TECNOLOGIAS UTILIZADAS:
