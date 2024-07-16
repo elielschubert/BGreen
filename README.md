@@ -16,6 +16,10 @@
 
 > <a href="https://www.figma.com/design/th8X2ZcgSPaSHABIxZZjNk/B-Green-Project?node-id=103-40&t=JOQdcv0RvVVVFFYb-1"><img src="https://img.shields.io/badge/FIGMA-768732?style=for-the-badge&logo=figma_351&logo"></a>
 
+# APRESENTAÇÃO:
+
+> <a href="[https://www.figma.com/design/th8X2ZcgSPaSHABIxZZjNk/B-Green-Project?node-id=103-40&t=JOQdcv0RvVVVFFYb-1](https://www.canva.com/design/DAGKedEhXSs/rJOLiqSnIEZun1sGybJcoA/view?utm_content=DAGKedEhXSs&utm_campaign=designshare&utm_medium=link&utm_source=editor#20)"><img src="https://img.shields.io/badge/CANVA-768732?style=for-the-badge&logo=canva_351&logo"></a>
+
 
 <div align="left"> <h1> MANUAL DO VISITANTE </h1> </div>
 
