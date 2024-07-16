@@ -69,7 +69,7 @@
     </div>
     <div class="row">
         <div class="col-12 justify-center">
-            <label class="paragraph">Já é parceiro do B Green? <a class="login-link" href="../companies-login-page/companies-login-page.html">Login</a></label>
+            <label>Já é parceiro do B Green? <a class="login-link" href="../companies-login-page/companies-login-page.html">Login</a></label>
         </div>
     </div>
     <div class="row">

@@ -15,7 +15,7 @@
 </head>
 
 <body>
-    <?php
+<?php
     session_start();
     if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
         echo '<div class="row header align-center">
@@ -44,7 +44,7 @@
         </div>
         <div class="col-4">';
         if (isset($_SESSION['id_empresa'])) {
-            echo '<ul class="list space-around"><li><a class="list-link" href="../landing-page/landing-page.php"> PARABENS CONSEGUIU </a></li>';
+            echo '<ul class="list space-around"><li><a class="list-link" href="../landing-page/landing-page.php">  </a></li>';
         } else {
             echo '<ul class="list space-around"><div class="dropdown-company">
                 <li class="list-link">Seja parceiro</li>
@@ -57,19 +57,32 @@
                 </div>
             </div>';
         };
-        echo '<li><a class="list-link" href="../contact-page/contact-page.php"> Contato </a></li>
-        <div class="dropdown">
-        <li class="list-link"> Olá, ', showFirstName($_SESSION['nome']), '!</li>
-        <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M12.2535 1.13386L6.49981 6.88757L0.746094 1.13386L1.76738 0.112573L6.49981 4.845L11.2322 0.112573L12.2535 1.13386Z" fill="#515C2C"/>
-        </svg>
-        <div class="dropdown-content">
-            <a class="list-link" href="../user-profile/edit-volunteer.php">Meu perfil</a>
-            <a class="list-link" href="../events-page/events-page.php">Meus Eventos</a>
-            <a class="list-link" href="../logout/logout.php?token=' . md5(session_id()) . '">Sair</a>
-        </div>
-    </div>
-            </ul>
+        echo '<li><a class="list-link" href="../contact-page/contact-page.php"> Contato </a></li>';
+        if (isset($_SESSION['id_empresa'])) {
+            echo '<div class="dropdown">
+            <li class="list-link"> Olá, ', showFirstName($_SESSION['nome']), '!</li>
+                <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.2535 1.13386L6.49981 6.88757L0.746094 1.13386L1.76738 0.112573L6.49981 4.845L11.2322 0.112573L12.2535 1.13386Z" fill="#515C2C"/>
+                </svg>
+                <div class="dropdown-content">
+                    <a class="list-link" href="../company-profile/company-profile.php">Meu perfil</a>
+                    <a class="list-link" href="../logout/logout.php?token=' . md5(session_id()) . '">Sair</a>
+                </div>
+            </div>';
+        } else {
+            echo '<div class="dropdown">
+                        <li class="list-link"> Olá, ', showFirstName($_SESSION['nome']), '!</li>
+                            <svg width="20" height="10" viewBox="0 2 13 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.2535 1.13386L6.49981 6.88757L0.746094 1.13386L1.76738 0.112573L6.49981 4.845L11.2322 0.112573L12.2535 1.13386Z" fill="#515C2C"/>
+                            </svg>
+                            <div class="dropdown-content">
+                                <a class="list-link" href="../user-profile/edit-volunteer.php">Meu perfil</a>
+                                <a class="list-link" href="../events-page/events-page.php">Meus Eventos</a>
+                                <a class="list-link" href="../logout/logout.php?token=' . md5(session_id()) . '">Sair</a>
+                            </div>
+                        </div>';
+        }
+        echo '</ul>
         </div>
     </div>';
     } else {
@@ -137,10 +150,7 @@
             </div>
             <div class="company-info padding-text text-div-margin-top">
                 <h2 class="about-company-title">Para onde vai o lixo?</h2>
-                <p class="paragraph paragraph-margin-top">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                    nulla temporibus non delectus fugit ex
-                    earum, dolorem aliquid, ratione autem beatae nobis! Quibusdam repellendus commodi ipsam ratione esse
-                    quisquam odit.</p>
+                <p class="paragraph paragraph-margin-top">Todo o material coletado será enviado para parceiros inspirados na coleta de material reciclado, estimulando a economia circular e a sustentabilidade.</p>
             </div>
             <div class="company-img">
                 <img class="company-img" src="../media/bosch-img.png" alt="">

@@ -7,7 +7,6 @@
 :root {
     --primary-light-color: #E7EDDB;
     --primary-dark-color: #515C2C;
-    --flipcard-component-color: #C5D4A8;
     --primary-dark-color-hover: #38401E;
     --light-background-color: #ffffff;
     --secondary-dark-color: #000000;
@@ -266,20 +265,12 @@ body {
 .flipcard-component{
     width: 15.5vw;
     height: 35vh;
-    background-color: var(--flipcard-component-color);
+    background-color: var(--primary-dark-color);
     border-radius: 5px;
-    margin-left: 0.5vw;
-    text-align: center;
-}
-
-.flipcard-component>p{
-    color: var(--secondary-dark-color);
-    font-size: 2vw;
-    font-family: "Glacial Indifference";
 }
 
 .flipcard-info{
     font-family: "Archive";
-    font-size: 5vw;
+    font-size: 3vw;
     margin-top: 7vh;
 }
